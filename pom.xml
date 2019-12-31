@@ -8,6 +8,7 @@
         <module>eurekaserverdemo</module>
         <module>ribbonconsumerdemo</module>
         <module>feignconsumerdemo</module>
+        <module>zuuldemo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -27,6 +28,12 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
