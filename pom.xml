@@ -7,6 +7,7 @@
         <module>maindemo</module>
         <module>eurekaserverdemo</module>
         <module>ribbonconsumerdemo</module>
+        <module>feignconsumerdemo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
