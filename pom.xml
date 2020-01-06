@@ -10,6 +10,7 @@
         <module>feignconsumerdemo</module>
         <module>zuuldemo</module>
         <module>configserverdemo</module>
+        <module>configclient</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
