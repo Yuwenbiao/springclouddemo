@@ -1,0 +1,11 @@
+#测试Zuul网关请求过滤：不带accessToken参数，返回401
+GET http://localhost:5555/api-a/hello
+Accept: application/json
+
+###
+#测试Zuul网关请求过滤：带accessToken参数，返回正常
+GET http://localhost:5555/api-a/hello?accessToken=token
+Accept: application/json
+
+###
+
